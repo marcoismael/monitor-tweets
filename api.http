@@ -1,0 +1,22 @@
+GET http://localhost:3000/tweets/
+###
+POST http://localhost:3000/tweets
+Content-Type: application/json
+
+{
+    "Text": "LULA LADRAO MAIS TA NO MEU CORACAO ...",
+    "User": {
+        "Name": "Amanda Leite"
+    }
+}
+
+###
+GET http://localhost:3000/mail-list
+
+###
+POST http://localhost:3000/mail-list
+Content-Type: application/json
+
+{
+    "emails": ["user.1@gmail.com","user.2@gmail.com","user.3@gmail.com","user.4@gmail.com"]
+}
